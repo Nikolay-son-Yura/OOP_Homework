@@ -16,6 +16,6 @@ public class Owner{
     }
 
     public String greet(){
-        return " Мой владелец -" + getNames();
+        return "Владелец -" + getNames();
     }
 }
