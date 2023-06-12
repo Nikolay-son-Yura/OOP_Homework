@@ -27,12 +27,12 @@ public class Rectangle extends Shape implements ICalculate {
         return height;
     }
 
-    public Double calculateArea() {
+    public double calculateArea() {
         return width * height;
     }
 
     @Override
-    public Double calculatePerimeter() {
+    public double calculatePerimeter() {
         return 2 * (width * height);
     }
 
