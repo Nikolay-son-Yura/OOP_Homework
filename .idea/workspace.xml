@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="815c9a0e-12ea-4dfe-a7dc-1816ef56859d" name="Changes" comment="lesson2">
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson4/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson4/Task1/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson4/Task2/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson4/Task3/MinMax.java" afterDir="false" />
+    <list default="true" id="815c9a0e-12ea-4dfe-a7dc-1816ef56859d" name="Changes" comment="lesson 5">
       <change afterPath="$PROJECT_DIR$/src/Homework/lesson4/Task4/DataContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task1/MVP/IModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task1/MVP/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task1/MVP/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task1/MatheModel/CalcModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task1/MatheModel/MatheModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task1/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task2/MPV/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task2/MPV/UserPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task2/MPV/UserView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/lesson4/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson4/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -34,16 +40,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Учеба/ООП/PracticalTask/untitled/src/Homework/lesson3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Учеба/ООП/PracticalTask/untitled/src/Homework/lesson5"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Homework.lesson5.Task1.MatheModel" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Учеба\ООП\PracticalTask\untitled\src\Homework\lesson5" />
       <recent name="D:\Учеба\ООП\PracticalTask\untitled\src\Homework\lesson3" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -131,11 +141,19 @@
       <option name="project" value="LOCAL" />
       <updated>1685789551042</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson2">
+      <created>1686930033974</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686930033975</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson2" />
+    <MESSAGE value="lesson 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 5" />
   </component>
 </project>

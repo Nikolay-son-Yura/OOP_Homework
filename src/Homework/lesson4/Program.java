@@ -3,11 +3,7 @@ package Homework.lesson4;
 import Homework.lesson4.Task1.Element;
 import Homework.lesson4.Task2.Array;
 import Homework.lesson4.Task3.MinMax;
-import Homework.lesson4.Task4.DataContainer;
-
-import java.util.Arrays;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
