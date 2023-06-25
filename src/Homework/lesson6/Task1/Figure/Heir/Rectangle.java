@@ -39,7 +39,5 @@ public class Rectangle extends Polygon {
     }
 
 
-    public double getSides(int index) {
-        return sides[index];
-    }
+
 }

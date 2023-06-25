@@ -20,13 +20,6 @@ public class Square extends Polygon {//тут тоже надо бы сдела�
         return super.getPeremetr();
     }
 
-//    @Override
-//    public String toString() {
-//        return super.toString() + "\n Стороны : " + sides[0] +
-//                "\n Периметр: " + getPeremetr() +
-//                "\n Площадь: " + getArea();
-//    }
-
     @Override
     public int compareTo(Figure o) {
         return this.getArea().compareTo(o.getArea());

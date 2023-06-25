@@ -1,15 +1,34 @@
 package Homework.lesson6.Task1.Presenter;
 
-import Homework.lesson6.Task1.Model.MenuMethods;
-import Homework.lesson6.Task1.Model.AddFigure;
+import Homework.lesson6.Task1.Data.Data;
+import Homework.lesson6.Task1.Figure.Parent.Figure;
+import Homework.lesson6.Task1.Model.FigureChange;
 
+import Homework.lesson6.Task1.Model.AddFigure;
+import Homework.lesson6.Task1.Model.MenuMethods;
+import Homework.lesson6.Task1.View.PrintFigure;
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Menu {
-    static AddFigure addFigure;
+    MenuMethods menuMethods;
+    FigureChange figureChange;
+    AddFigure addFigure;
+    PrintFigure print;
+    Data data;
     static Scanner scanner = new Scanner(System.in);
-    static MenuMethods listFigure = new MenuMethods();
-    public static void programMenu() {
+    static ArrayList<Figure> listFigure = new ArrayList<>();
+
+    public Menu(AddFigure aF, FigureChange fC, MenuMethods mM, PrintFigure p, Data d) {
+        addFigure = aF;
+        figureChange = fC;
+        menuMethods = mM;
+        print = p;
+        data = d;
+    }
+
+    public void start() {
 
         System.out.println("""
                  1. Добавить новую фигуру;
@@ -28,48 +47,46 @@ public class Menu {
         System.out.println();
         switch (choice) {
             case 1 -> {
-               addFigure.addFigures();
-
-//                listFigure.
-
-                programMenu();
+                addFigure.addFigures(listFigure);
+                start();
             }
             case 2 -> {
-                listFigure.getAllParameter();
-                programMenu();
+                menuMethods.getAllParameter(listFigure);
+                start();
             }
             case 3 -> {
-                listFigure.getAreaAll();
-                programMenu();
+                menuMethods.getAreaAll(listFigure);
+                start();
             }
             case 4 -> {
-                listFigure.getAllParameters();
-                programMenu();
+                menuMethods.getAllParameters(listFigure);
+                start();
             }
             case 5 -> {
-                listFigure.countList();
-                listFigure.removeFigure();
-                listFigure.infoAll();
-                programMenu();
+                menuMethods.countList(listFigure);
+                menuMethods.removeFigure(listFigure);
+                print.print(listFigure);
+                start();
             }
             case 6 -> {
-                listFigure.figureChange();
-                programMenu();
+                figureChange.figureChange(listFigure);
+                start();
             }
             case 7 -> {
-                listFigure.infoAll();
-                listFigure.sortAll();
-                listFigure.infoAll();
-                programMenu();
+
+                print.print(listFigure);
+                menuMethods.sortAll(listFigure);
+                print.print(listFigure);
+                start();
             }
-//            case 8 -> {
-//                listFigure.addData();
-//                programMenu();
-//            }
+            case 8 -> {
+                data.addBase(listFigure);
+                start();
+            }
             case 9 -> {
 
-                listFigure.infoAll();
-                programMenu();
+                print.print(listFigure);
+                start();
             }
             case 10 -> System.out.println("Всего доброго!");
         }

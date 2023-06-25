@@ -19,6 +19,10 @@ public abstract class Polygon extends Figure implements Perimetr {
         this.sides = sides;
     }
 
+    public double getSides(int index) {
+        return sides[index];
+    }
+
     public void setSides(Double[] sides) {
         this.sides = sides;
     }

@@ -11,12 +11,12 @@ import java.util.ArrayList;
 
 public class Data {
 
-    public ArrayList<Figure> addBase() {
-        ArrayList<Figure> base = new ArrayList<>();
-        base.add(new Triangle("Треугольник 1", 2.0, 4.9, 6.2));
-        base.add(new Circle("Круг 1", 5.0));
-        base.add(new Square("Квадрат 1", 6.0));
-        base.add(new Rectangle("Прямоугольник 1", 6.0, 10.0));
-        return base;
+    public ArrayList<Figure> addBase(ArrayList<Figure> arg) {
+
+        arg.add(new Triangle("Треугольник 1", 2.0, 4.9, 6.2));
+        arg.add(new Circle("Круг 1", 5.0));
+        arg.add(new Square("Квадрат 1", 6.0));
+        arg.add(new Rectangle("Прямоугольник 1", 6.0, 10.0));
+        return arg;
     }
 }

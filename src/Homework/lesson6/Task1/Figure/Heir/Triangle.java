@@ -1,6 +1,4 @@
 package Homework.lesson6.Task1.Figure.Heir;
-
-
 import Homework.lesson6.Task1.Figure.Parent.Figure;
 import Homework.lesson6.Task1.Figure.Parent.Polygon;
 
@@ -12,6 +10,7 @@ public class Triangle extends Polygon {
                 throw new IllegalArgumentException("Невозможно создать треугольник с заданными сторонами!");
         }
 
+
     @Override
     public Double getArea() {
         Double p = super.getPeremetr() / 2;
@@ -22,17 +21,6 @@ public class Triangle extends Polygon {
     public Double getPeremetr() {
         return super.getPeremetr();
     }
-
-//    @Override
-//    public String toString() {
-//        return super.toString()+
-//                "\n Стороны A: "+sides[0]+
-//                ",\n Стороны B: "+sides[1]+
-//                ",\n Стороны C: "+sides[2]+
-//                "\n Площадь треугольника: "+getArea()+
-//                "\n Периметр треугольника: "+getPeremetr()
-//                ;
-//    }
 
     @Override
     public int compareTo(Figure o) {
