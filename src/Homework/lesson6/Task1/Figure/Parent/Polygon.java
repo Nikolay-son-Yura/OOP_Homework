@@ -1,11 +1,11 @@
 package Homework.lesson6.Task1.Figure.Parent;
 
 
-import Homework.lesson6.Task1.Figure.Interface.Perimetr;
+import Homework.lesson6.Task1.Figure.Interface.Perimeter;
 
-public abstract class Polygon extends Figure implements Perimetr {
+public abstract class Polygon extends Figure implements Perimeter {
     protected Double[] sides;
-    private Integer numberOfSides;
+    private final Integer numberOfSides;
 
     protected Polygon(String name, Integer numberOfSides, Double[] sides){
         super(name);
@@ -28,7 +28,7 @@ public abstract class Polygon extends Figure implements Perimetr {
     }
 
     @Override
-    public Double getPeremetr() {
+    public Double getPerimeter() {
         Double res = 0.0;
         for (Double side : this.sides) {
             res += side;

@@ -1,4 +1,5 @@
 package Homework.lesson6.Task1.Figure.Heir;
+
 import Homework.lesson6.Task1.Figure.Parent.Figure;
 import Homework.lesson6.Task1.Figure.Parent.Polygon;
 
@@ -13,18 +14,18 @@ public class Triangle extends Polygon {
 
     @Override
     public Double getArea() {
-        Double p = super.getPeremetr() / 2;
+        Double p =getPerimeter() / 2;
         // Формула Герона
-        return Math.sqrt(p * (p - sides[0]) * (p - sides[1]) * (p - sides[2]));    }
+        return Math.sqrt(p * (p - sides[0]) * (p - sides[1]) * (p - sides[2]));
+        }
 
     @Override
-    public Double getPeremetr() {
-        return super.getPeremetr();
+    public Double getPerimeter() {
+        return super.getPerimeter();
     }
 
     @Override
     public int compareTo(Figure o) {
-        return this.getArea().compareTo(o.getArea());
-    }
+        return this.getArea().compareTo(o.getArea()); }
 }
 

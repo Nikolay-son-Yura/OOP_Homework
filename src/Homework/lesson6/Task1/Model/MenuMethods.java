@@ -17,7 +17,7 @@ public class MenuMethods {
         for (Figure item : arg) {
             if (item instanceof Polygon) {
                 index++;
-                perimeter += ((Polygon) item).getPeremetr();
+                perimeter += ((Polygon) item).getPerimeter();
             }
         }
         System.out.println("Периметр " + index + " возможных фигур = " + perimeter + ";");
@@ -47,7 +47,7 @@ public class MenuMethods {
         for (Figure item : arg) {
             if (item instanceof Polygon) {
                 index++;
-                perimeter += ((Polygon) item).getPeremetr();
+                perimeter += ((Polygon) item).getPerimeter();
             }
         }
         System.out.println("Периметр всех возможных " + index + " фигур = " + perimeter + ";");

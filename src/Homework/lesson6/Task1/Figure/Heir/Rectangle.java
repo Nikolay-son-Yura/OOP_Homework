@@ -15,23 +15,14 @@ public class Rectangle extends Polygon {
 
     @Override
     public Double getArea() {
-        return sides[0] * sides[1];
+        return sides[0] * sides[0];
     }
 
 
     @Override
-    public Double getPeremetr() {
-        return super.getPeremetr();
+    public Double getPerimeter() {
+        return super.getPerimeter();
     }
-
-//    @Override
-//    public String toString() {
-//        return super.toString() +
-//                "\n Стороны A: " + sides[0] +
-//                ",\n Стороны B: " + sides[1] +
-//                "\n Периметр: " + getPeremetr() +
-//                "\n Площадь: " + getArea();
-//    }
 
     @Override
     public int compareTo(Figure o) {

@@ -2,10 +2,10 @@ package Homework.lesson6.Task1.Figure.Heir;
 
 
 
-import Homework.lesson6.Task1.Figure.Interface.Сircumference;
+import Homework.lesson6.Task1.Figure.Interface.Circumference;
 import Homework.lesson6.Task1.Figure.Parent.Figure;
 
-public class Circle extends Figure implements Сircumference {//тут тоже надо бы сделать отдельный класс по ошибкам
+public class Circle extends Figure implements Circumference {//тут тоже надо бы сделать отдельный класс по ошибкам
     private Double radius;
 
     public Circle(String name, Double radius)  {

@@ -1,6 +1,6 @@
 package Homework.lesson6.Task1.Figure.Interface;
 
-public interface Сircumference {
+public interface Circumference {
      Double getLen();
      Double getRadius();
 }

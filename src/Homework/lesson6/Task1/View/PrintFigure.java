@@ -1,7 +1,6 @@
 package Homework.lesson6.Task1.View;
 
 import Homework.lesson6.Task1.Figure.Heir.Circle;
-import Homework.lesson6.Task1.Figure.Heir.Rectangle;
 import Homework.lesson6.Task1.Figure.Parent.Figure;
 import Homework.lesson6.Task1.Figure.Parent.Polygon;
 
@@ -24,7 +23,7 @@ public class PrintFigure {
                     count++;
                 }
                 System.out.println("Площадь фигуры: " + item.getArea() +
-                        "\n Периметр фигуры: " + ((Polygon) item).getPeremetr());
+                        "\n Периметр фигуры: " + ((Polygon) item).getPerimeter());
             }
             System.out.println();
         }

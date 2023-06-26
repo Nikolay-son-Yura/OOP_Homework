@@ -3,7 +3,6 @@ package Homework.lesson6.Task1.Presenter;
 import Homework.lesson6.Task1.Data.Data;
 import Homework.lesson6.Task1.Figure.Parent.Figure;
 import Homework.lesson6.Task1.Model.FigureChange;
-
 import Homework.lesson6.Task1.Model.AddFigure;
 import Homework.lesson6.Task1.Model.MenuMethods;
 import Homework.lesson6.Task1.View.PrintFigure;

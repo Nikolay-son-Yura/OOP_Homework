@@ -1,6 +1,5 @@
 package Homework.lesson6.Task1.Figure.Heir;
 
-
 import Homework.lesson6.Task1.Figure.Parent.Figure;
 import Homework.lesson6.Task1.Figure.Parent.Polygon;
 
@@ -16,8 +15,8 @@ public class Square extends Polygon {//тут тоже надо бы сдела�
     }
 
     @Override
-    public Double getPeremetr() {
-        return super.getPeremetr();
+    public Double getPerimeter() {
+        return super.getPerimeter();
     }
 
     @Override
