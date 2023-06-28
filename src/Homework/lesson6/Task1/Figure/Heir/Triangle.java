@@ -26,6 +26,10 @@ public class Triangle extends Polygon {
 
     @Override
     public int compareTo(Figure o) {
-        return this.getArea().compareTo(o.getArea()); }
+        double area = getArea();
+        double otherArea = o.getArea();
+        return Double.compare(area, otherArea);
+    }
+//        return this.getArea().compareTo(o.getArea()); }
 }
 
