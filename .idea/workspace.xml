@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="815c9a0e-12ea-4dfe-a7dc-1816ef56859d" name="Changes" comment="lesson 6.1">
+    <list default="true" id="815c9a0e-12ea-4dfe-a7dc-1816ef56859d" name="Changes" comment="lesson 6.1.2">
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/FileName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/LoggerCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/MatheModel/MatheModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/Model/CalcModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/Model/IModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/Presenter/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/View/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Heir/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Heir/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Heir/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Heir/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Heir/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Heir/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Heir/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Heir/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Interface/Perimetr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Interface/Perimeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Interface/Сircumference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Interface/Circumference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Parent/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Figure/Parent/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Model/MenuMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Model/MenuMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Presenter/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/Presenter/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson6/Task1/View/PrintFigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson6/Task1/View/PrintFigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/lesson5/Task1/MatheModel/CalcModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task1/MatheModel/CalcModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Учеба/ООП/PracticalTask/untitled/src/Homework/lesson6/Task1",
+    "last_opened_file_path": "D:/Учеба/ООП/PracticalTask/untitled/src/Homework/lesson7",
     "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
@@ -68,22 +67,23 @@
       <recent name="Homework.lesson5.Task1.MatheModel" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Учеба\ООП\PracticalTask\untitled\src\Homework\lesson7" />
       <recent name="D:\Учеба\ООП\PracticalTask\untitled\src\Homework\lesson6\Task1" />
       <recent name="D:\Учеба\ООП\PracticalTask\untitled\src\Homework\lesson6\Task1\Parent" />
       <recent name="D:\Учеба\ООП\PracticalTask\untitled\src\Homework\lesson6" />
       <recent name="D:\Учеба\ООП\PracticalTask\untitled\src\Homework\lesson5" />
-      <recent name="D:\Учеба\ООП\PracticalTask\untitled\src\Homework\lesson3" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Homework.lesson1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Homework.lesson7.Model" />
       <recent name="Homework.lesson6.Task1.Presenter" />
       <recent name="Homework.lesson6" />
       <recent name="Homework.lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework.lesson6.Program">
+  <component name="RunManager" selected="Application.Homework.lesson7.Program">
     <configuration name="Homework.lesson3.Task1.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework.lesson3.Task1.Program" />
       <module name="untitled" />
@@ -136,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework.lesson1.Task1.Program" />
+    <configuration name="Homework.lesson7.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework.lesson7.Program" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework.lesson1.Task1.*" />
+          <option name="PATTERN" value="Homework.lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework.lesson7.Program" />
         <item itemvalue="Application.Homework.lesson6.Program" />
         <item itemvalue="Application.Homework.lesson5.Task1.Program" />
         <item itemvalue="Application.Homework.lesson4.Program" />
         <item itemvalue="Application.Homework.lesson3.Task1.Program" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687693436054</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson 6.1.1">
+      <created>1687790159749</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687790159749</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson 6.1.2">
+      <created>1687954878102</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687954878102</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +233,8 @@
     <MESSAGE value="lesson 5" />
     <MESSAGE value="lesson 6" />
     <MESSAGE value="lesson 6.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 6.1" />
+    <MESSAGE value="lesson 6.1.1" />
+    <MESSAGE value="lesson 6.1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 6.1.2" />
   </component>
 </project>

@@ -1,7 +1,4 @@
-package Homework.lesson5.Task1.MatheModel;
-
-
-import Homework.lesson5.Task1.MVP.IModel;
+package Homework.lesson7.Model;
 
 public abstract class CalcModel implements IModel {
     public double a;
