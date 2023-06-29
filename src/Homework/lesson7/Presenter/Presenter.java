@@ -2,11 +2,10 @@ package Homework.lesson7.Presenter;
 
 import Homework.lesson7.Model.CalcModel;
 import Homework.lesson7.View.View;
-import Homework.lesson7.Model.IModel;
 
 public class Presenter<T extends CalcModel> {
     View view;
-    IModel model;
+    CalcModel model;
 
     public Presenter(T m, View v) {
         model = m;

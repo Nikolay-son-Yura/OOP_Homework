@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="815c9a0e-12ea-4dfe-a7dc-1816ef56859d" name="Changes" comment="lesson 6.1.2">
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/ResultLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/MatheModel/MathModelA.java" afterDir="false" />
+    <list default="true" id="815c9a0e-12ea-4dfe-a7dc-1816ef56859d" name="Changes" comment="lesson 7.1">
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/Model/MathModelLes7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/FileLogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/FileLogg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/LoggerCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/LoggerCalc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson7/MatheModel/MatheModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson7/MatheModel/MatheModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/lesson7/MatheModel/MatheModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson7/Model/MatheModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/lesson7/Model/CalcModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson7/Model/CalcModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/lesson7/Presenter/Presenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson7/Presenter/Presenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/lesson7/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson7/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -226,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688034892500</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lesson 7">
+      <created>1688040984493</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688040984493</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,6 +247,8 @@
     <MESSAGE value="lesson 6.1" />
     <MESSAGE value="lesson 6.1.1" />
     <MESSAGE value="lesson 6.1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 6.1.2" />
+    <MESSAGE value="lesson 7" />
+    <MESSAGE value="lesson 7.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 7.1" />
   </component>
 </project>

@@ -22,18 +22,18 @@ public class LoggerCalc implements FileName {
         }
     }
     public static String resultLogger(String operator,double a,double b,double result) {
-        String resultLog;
+        String logger;
         if (operator.equals("/") && b == 0) {
-            resultLog = a + " на ноль делить нельзя ";
+            logger = a + " на ноль делить нельзя ";
         }
         if (operator.equals("//")) {
-            resultLog = "квадратный корень из " + a + " = " + result;
+            logger = "квадратный корень из " + a + " = " + result;
         }
         if (operator.equals("^")) {
-            resultLog = a + " в степени " + b + " = " + result;
+            logger = a + " в степени " + b + " = " + result;
         } else {
-            resultLog = a + operator + b + " = " + result;
+            logger = a + operator + b + " = " + result;
         }
-        return resultLog;
+        return logger;
     }
 }
