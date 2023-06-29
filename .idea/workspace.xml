@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="815c9a0e-12ea-4dfe-a7dc-1816ef56859d" name="Changes" comment="lesson 6.1.2">
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/FileName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/LoggerCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/MatheModel/MatheModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/Model/CalcModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/Model/IModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/Presenter/Presenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/View/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/ResultLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework/lesson7/MatheModel/MathModelA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework/lesson5/Task1/MatheModel/CalcModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson5/Task1/MatheModel/CalcModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/LoggerCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson7/LoggerText/LoggerCalc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework/lesson7/MatheModel/MatheModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework/lesson7/MatheModel/MatheModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -224,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687954878102</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lesson 6.1.2">
+      <created>1688034892500</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688034892500</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

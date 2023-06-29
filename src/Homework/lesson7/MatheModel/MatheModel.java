@@ -36,13 +36,8 @@ public class MatheModel extends CalcModel implements FileName {
                 result = Math.pow(a, b);
             }
         }
-        String resultLog;
-        if (operator.equals("/") && b == 0) {
-            resultLog = a + " на ноль делить нельзя ";
-        } else {
-            resultLog = a + operator + b + " = " + result;
-        }
-        LoggerCalc.setLogger(nameClass, operator, resultLog);
+        String resultlog = LoggerCalc.resultLogger(operator, a, b, result);
+        LoggerCalc.setLogger(nameClass, operator, resultlog);
         return result;
     }
 

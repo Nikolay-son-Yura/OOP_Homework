@@ -21,4 +21,19 @@ public class LoggerCalc implements FileName {
             logger.logp(Level.WARNING, nameClass, nameMethod, "Ошибка логирования.");
         }
     }
+    public static String resultLogger(String operator,double a,double b,double result) {
+        String resultLog;
+        if (operator.equals("/") && b == 0) {
+            resultLog = a + " на ноль делить нельзя ";
+        }
+        if (operator.equals("//")) {
+            resultLog = "квадратный корень из " + a + " = " + result;
+        }
+        if (operator.equals("^")) {
+            resultLog = a + " в степени " + b + " = " + result;
+        } else {
+            resultLog = a + operator + b + " = " + result;
+        }
+        return resultLog;
+    }
 }
